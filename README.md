@@ -1,12 +1,12 @@
 # Object Detection with MaskRCNN
 
 ## How to make the object detection on an image
-**object_detection_on_image.ipynb**
+**object_detection_on_image.ipynb**  
 Make object detection on the given image with Mask R-CNN model.  
 And plot the image along with mask, bounding boxes, class id and confidence level.  
 
 ## How to train Mask R-CNN model on custom dataset
-**Taxi dataset**
+**Taxi dataset**  
 Where to get the dataset : https://storage.googleapis.com/openimages/web/index.html  
 
 Tools to get the dataset : follow the README.md in https://github.com/theAIGuysCode/OIDv4_ToolKit  
