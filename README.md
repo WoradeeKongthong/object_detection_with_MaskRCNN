@@ -15,7 +15,9 @@ Or you can follow my steps :
 - Clone or download the repository `https://github.com/EscVM/OIDv4_ToolKit.git`
 - cd into the repository folder `cd OIDv4_ToolKit-master`  
 - install required packages `pip install -r requirements.txt`  
-- download taxi dataset from OIDv6 `python main.py downloader --classes Taxi --type_csv train`  
+- download taxi dataset from OIDv6 `python main.py downloader --classes Taxi --type_csv train --limit 100`  
+
+Note: you can change class name, or add more class name, and you can change limit for your dataset  
 
 The downloaded dataset will be stored in `OID/Dataset/Train/Taxi`  
 
