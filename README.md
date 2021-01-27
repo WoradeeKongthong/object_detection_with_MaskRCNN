@@ -12,10 +12,10 @@ Where to get the dataset : https://storage.googleapis.com/openimages/web/index.h
 Tools to get the dataset : follow the README.md in https://github.com/theAIGuysCode/OIDv4_ToolKit  
 
 Or you can follow my steps :
-- Clone or download the repository `https://github.com/EscVM/OIDv4_ToolKit.git`
-- cd into the repository folder `cd OIDv4_ToolKit-master`  
-- install required packages `pip install -r requirements.txt`  
-- download taxi dataset from OIDv6 `python main.py downloader --classes Taxi --type_csv train`  
+- clone or download the repository `https://github.com/EscVM/OIDv4_ToolKit.git`
+- cd into the repository folder `$cd OIDv4_ToolKit-master`  
+- install required packages `$pip install -r requirements.txt`  
+- download taxi dataset from OIDv6 `$python main.py downloader --classes Taxi --type_csv train`  
 
 The downloaded dataset will be stored in `OID/Dataset/Train/Taxi`  
 
@@ -25,7 +25,7 @@ I manage my dataset by separating images and annotation files into 2 folders nam
 
 Now, our data for creating Mask R-CNN dataset is ready.
 
-**dataset_preparation.ipynb**
+**dataset_preparation.ipynb**  
 Show the preparation process of creating Mask R-CNN dataset from the downloaded images and annotation txt files.  
 
 Now, our Mask R-CNN dataset is ready to be used in training process.
